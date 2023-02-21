@@ -1,0 +1,315 @@
+/* tekst  -------------------------------------*/
+
+h1 {
+
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #EE9D45;
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #EE9D45;
+
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 100;
+    color: #EE9D45;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #EE9D45;
+    word-wrap: normal;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+
+    font-size: 15px;
+    color: #EE9D45;
+    margin: 0px;
+    }
+
+.h3underline {
+        font-size: 18px;
+        font-weight: 100;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        color: #EE9D45;
+        
+        }
+
+.borderbottom {
+   
+    border-bottom: 2px solid #f0b371;
+    padding-bottom: 1.5px;
+  
+}
+
+
+/* ---  tekst --------------------------------*/
+
+/* alingment*/ --------------------------
+
+.alignright {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alignright2 {
+
+   float: right;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+  /*  --- links --*/
+
+a{
+    color: #EE9D45;
+    text-decoration: none; 
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+
+
+.image1 {
+display: block;
+    margin: auto;
+    border-style: dashed;
+}
+
+.imagecenter {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+
+
+.overflowhidden {
+    display: flex;
+    font-size: 15px;
+    color: #EE9D45;
+    height: 5em;
+    overflow: hidden;
+
+}
+
+.overflowshown {
+
+    display: flex;
+    font-size: 15px;
+    color: #EE9D45;
+
+}
+
+.hidden {
+
+display: none;
+
+}
+
+
+/* projecten ---------------------------------------*/
+
+.containerprojecten {
+max-width: 900px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.container1 {
+    width: 100%;
+    max-width: 900px;
+    align-items: center;
+    margin: auto
+    
+    }
+
+.containertand {
+
+    width: 100%;
+    max-width: 400px;
+    float: left;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-style: dashed;
+}
+
+.containerhersenen {
+
+    width: 100%;
+    max-width: 400px;
+    float: right;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-style: dashed;
+}
+
+
+.container4 {
+
+    width: 100%;
+    max-width: 400px;
+    float: right;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-style: dashed;
+}
+
+.containerdeuitvinder {
+
+    width: 100%;
+    max-width: 500px;
+    float: right;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 90px;
+    border-style: dashed;
+}
+
+.containerzwabat {
+
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 90px;
+    border-style: dashed;
+}
+
+
+/* database  --------------------------------*/
+
+
+.boxdatabase1, .boxdatabase1:hover {
+
+    color: #c2813c;
+    background-color: #eca253;
+    text-align: left;
+    padding: 10px 10px 10px 15px;
+    margin: auto;
+    max-width: 700px;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-bottom-color: #c47c30;
+    border-left-color: #c47c30;
+    border-right-color: #c47c30;
+    border-style: solid;
+    cursor: pointer;
+  
+}
+
+
+.boxdatabase2 {
+    font-size: 14px;
+    color: #707070;
+    background-color: #c9c9c9;
+    text-align: left;
+    padding: 10px 10px 10px 30px;
+    margin: auto;
+    max-width: 700px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom-color: rgb(134, 134, 134);
+    border-left-color: rgb(134, 134, 134);
+    border-right-color: rgb(134, 134, 134);
+    border-style: solid;
+
+}
+
+.boxdatabase3 {
+
+    color: #e6810e;
+    background-color: #e7e7e7;
+    text-align: left;
+    padding: 10px 10px 10px 15px;
+    margin: auto;
+    max-width: 700px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom-color: rgb(189, 189, 189);
+    border-left-color: rgb(189, 189, 189);
+    border-right-color: rgb(189, 189, 189);
+    border-style: solid;
+
+}
+
+/* ---- specifieke elementen --*/
+
+.uil{
+
+    width: 130px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+/* body   ---------------------------------*/
+
+
+
+    
+
+body {
+    
+    background-image: url("afbeeldingen/papier textuur.jpg");
+    background-repeat: repeat;
+    margin: 44px 44px;
+    padding: 0px;
+    font-family: Helvetica;
+
+
+  }
+
+
+  <link rel="shortcut icon" href="afbeeldingen/uil.png" type="image/x-icon" alt="uil">
+
